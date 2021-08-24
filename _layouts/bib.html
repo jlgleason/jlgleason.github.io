@@ -72,7 +72,10 @@
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
+      {% elsif entry.type == "techreport" %}
+        {{entry.institution}}
       {% endif %}
+
       {% if entry.year %}
         {{entry.year}}
       {% endif %}
@@ -111,6 +114,9 @@
     {% endif %}
     {% if entry.code %}
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    {% endif %}
+    {% if entry.video %}
+    <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
