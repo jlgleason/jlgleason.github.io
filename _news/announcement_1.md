@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-8-02 15:59:00-0400
+date: 2022-6-02
 inline: true
 ---
 
-Arrived in Boston!
+Attended [PLSC](https://privacyscholars.org/plsc-history/plsc-2022)

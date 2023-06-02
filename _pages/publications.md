@@ -2,25 +2,25 @@
 layout: page
 permalink: /publications/
 title: publications
-workshop_years: [2020, 2019]
-report_years: [2021]
+before_neu_years: [2021, 2020, 2019]
+neu_years: [2023]
 nav: true
 ---
 
-<center><h3><p style="color:#D41B2C">workshop papers</p></h3></center>
+<center><h3><p style="color:#D41B2C">Northeastern</p></h3></center>
 
 <div class="publications">
-{% for y in page.workshop_years %}
+{% for y in page.neu_years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f workshop-papers -q @*[year={{y}}]* %}
+  {% bibliography -f neu -q @*[year={{y}}]* %}
 {% endfor %}
 </div>
 
-<center><h3><p style="color:#D41B2C">technical reports</p></h3></center>
+<center><h3><p style="color:#D41B2C">Before Northeastern</p></h3></center>
 
 <div class="publications">
-{% for y in page.report_years %}
+{% for y in page.before_neu_years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f technical-reports -q @*[year={{y}}]* %}
+  {% bibliography -f before-neu -q @*[year={{y}}]* %}
 {% endfor %}
 </div>
