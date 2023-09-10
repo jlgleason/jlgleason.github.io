@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-3-20
+date: 2023-5-31
 inline: true
 ---
 
-Our paper [Google the Gatekeeper: How Search Components Affect Clicks and Attention](/assets/pdf/google-the-gatekeeper.pdf) was accepted at [ICWSM](https://www.icwsm.org/2023/index.html)! We estimated the effects of Google Search components (e.g. <tt>featured-snippets</tt> and <tt>shopping-ads</tt>) on user behavior using a causal inference approach. 
+Submitted a [comment](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13817-Delegated-Regulation-on-data-access-provided-for-in-the-Digital-Services-Act/F3423926_en) to the European Commission arguing for access to experimental data under the Digital Services Act 

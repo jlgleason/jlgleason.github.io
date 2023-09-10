@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-3-31
+date: 2023-6-8
 inline: true
 ---
 
-Attended [Beyond the FTC: The Future of Privacy Enforcement](https://ibl.law.uiowa.edu/beyond-ftc-recap)
+We were lucky to win the Best Paper Award at ICWSM!

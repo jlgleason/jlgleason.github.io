@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-6-02
+date: 2022-7-11
 inline: true
 ---
 
-Attended [PLSC](https://privacyscholars.org/plsc-history/plsc-2022)
+TA'ed for the awesome [IDEAS](https://sites.google.com/view/ideas-summer-program/home) summer program
