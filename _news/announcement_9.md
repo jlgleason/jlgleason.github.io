@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-2-28
+date: 2024-6-19
 inline: true
 ---
 
-I'm excited to join Roblox's Trust and Safety team as a PhD Data Science intern this summer!
+I'm joining Roblox's Trust and Safety team as a PhD Data Science intern this summer!

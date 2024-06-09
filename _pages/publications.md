@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-<center><h3><p style="color:#D41B2C">Northeastern</p></h3></center>
+<!-- <center><h1><p style="color:#D41B2C">Northeastern</p></h1></center> -->
 
 <div class="publications">
 {% for y in page.neu_years %}
@@ -17,7 +17,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-<center><h3><p style="color:#D41B2C">Before Northeastern</p></h3></center>
+<!-- <center><h1><p style="color:#D41B2C">Before Northeastern</p></h1></center> -->
 
 <div class="publications">
 {% for y in page.before_neu_years %}
