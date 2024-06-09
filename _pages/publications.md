@@ -5,6 +5,7 @@ title: publications
 before_neu_years: [2021, 2020, 2019]
 neu_years: [2024, 2023]
 nav: true
+nav_order: 2
 ---
 
 <center><h3><p style="color:#D41B2C">Northeastern</p></h3></center>
