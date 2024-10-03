@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-6-8
+date: 2024-1-23
 inline: true
 ---
 
-Our paper [Google the Gatekeeper: How Search Components Affect Clicks and Attention](/assets/pdf/google-the-gatekeeper.pdf) won the **Best Paper Award** at [ICWSM 2023](https://www.icwsm.org/2023/index.html)! We estimated the effects of Google Search components (e.g. featured-snippets and shopping-ads) on user behavior using observational causal inference. 
+Our paper [Perceptions in Pixels: Analyzing Perceived Gender and Skin Tone in Real-world Image Search Results](/assets/pdf/perceptions-in-pixels.pdf) was accepted at [WWW 2024](https://www2024.thewebconf.org/)
