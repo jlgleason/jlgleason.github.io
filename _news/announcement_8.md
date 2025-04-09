@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2024-9-26
+date: 2025-1-16
 inline: true
 ---
 
-I co-presented [Intoduction to the National Internet Observatory](https://workshop-proceedings.icwsm.org/pdf/2024_73.pdf) at the [Trust and Safety Research Conference](https://conferences.law.stanford.edu/tsrc/). 
+Research with my Roblox colleagues was accepted at [CHI 2025](https://chi2025.acm.org/): [In Suspense About Suspensions? The Relative Effectiveness of Suspension Durations on a Popular Social Platform](/assets/pdf/suspense-about-suspensions.pdf). I'll be returning to Roblox for another data science internship this summer. 
+
