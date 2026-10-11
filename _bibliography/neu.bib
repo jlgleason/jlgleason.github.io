@@ -90,3 +90,53 @@
   bibtex_show = {true},
   preview     = {ai_voice.png}
 }
+
+@inproceedings{gleason2026suppression,
+  abbr        = {WWW},
+  title       = {Determinants and Effects of Buy Box Suppression on Amazon},
+  author      = {Jeffrey Gleason and Shuo Zhang and Christo Wilson},
+  booktitle   = {Proceedings of the ACM Web Conference 2026},
+  year        = {2026},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3774904.3792473},
+  code        = {https://github.com/jlgleason/amazon-price-crawler},
+  abstract    = {98\% of sales on Amazon.com flow through the Buy Box. However, Amazon sometimes decides not to feature any offers for a product and removes the Buy Box from the product page---a situation known as Buy Box suppression. Suppression may have severe consequences on individual sellers and might affect competition if it disciplines prices across online marketplaces. This paper studies suppression using a new, high-frequency dataset that tracks 17,754 products on Amazon.com at hourly intervals for eight weeks in 2024, along with corresponding offers from 59,301 unique competitors. We open-source both the dataset and collection code.</p><p>We find that the primary reason for suppression is changes to the offers for a product on Amazon. Lower competitor prices only modestly increase the probability of suppression. Suppression has substantial impacts on sellers: products immediately fall sharply in search, ad placements completely disappear within 12 hours, and sales ranks are 12\% worse after 48 hours. In contrast, we find no evidence of impacts on competitor prices in the short run. Our results highlight how Buy Box suppression acts as an important and underexplored mechanism of platform governance.},
+  bibtex_show = {true},
+  poster      = {buy-box-suppression-poster.pdf},
+  preview     = {bbs.png}
+}
+
+@inproceedings{srivirote2026inferring,
+  abbr        = {WWW},
+  title       = {Inferring Users' Demographics and Sensitive Interests Using the Topics API},
+  author      = {Srivirote, Athicha and Aziz, Muhammad Abu Bakar and Gleason, Jeffrey and Hu, Desheng and Wilson, Christo},
+  booktitle   = {Proceedings of the ACM Web Conference 2026},
+  pages       = {3438--3448},
+  year        = {2026},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3774904.3792660},
+  abstract    = {In 2019, Google introduced the Privacy Sandbox, a collection of APIs designed to facilitate privacy-preserving online advertising. One of the Sandbox APIs, known as Topics, maps users’ browsing history to a set of commercially-focused topics and then shares the top topics with advertisers. Prior work has shown that the Topics API makes Chrome users vulnerable to cross-context reidentification attacks. In this work, we investigate whether the Topics API can be abused to implement a different privacy attack: accurate inferences of users’ demographics and sensitive interests. To answer this question, we use a real-world dataset of browsing histories---containing over 250,000 unique domains over a span of eight months---to train machine learning models that take topics from the Topics API as input. Of the 19 demographic traits and sensitive interests that we evaluate, we find that all but two show predictive signals. Our findings add to the growing body of evidence that the Topics API is privacy-revealing, not privacy-preserving.},
+  bibtex_show = {true},
+  preview     = {topics.png}
+}
+
+@article{wang2026ai,
+  abbr        = {arXiv},
+  title       = {AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence},
+  author      = {Wang, Stephanie T and Gleason, Jeffrey and Bart, Yakov and Wilson, Christo and Metaxa, Dana{\'e}},
+  journal     = {arXiv preprint arXiv:2608.18352},
+  year        = {2026},
+  pdf         = {https://arxiv.org/pdf/2608.18352},
+  abstract    = {The integration of generative AI into web search delivers synthesized answers to user queries, changing how people navigate and assess information, while raising concerns about the downstream impacts on publishers who supply the underlying content. We conduct a preregistered field experiment (N=1,100) on Google Search, the dominant online search platform, to estimate the causal effects of AI Overviews and AI Mode on user behavior, perceptions, and publisher traffic. We show that removing AI Overviews and AI Mode increases click-through rates to publishers, while an AI Mode-only experience reduces click-through rates and erodes user experience and trust in information found on Google. These findings show that integrating generative AI into web search reshapes online attention, with economic consequences for the online publishers that sustain both search platforms and the overall information ecosystem.},
+  bibtex_show = {true},
+  preview = {ai_search.png}
+}
+
+@phdthesis{gleason2026causal,
+  abbr        = {PhD Thesis},
+  title       = {Causal Evidence About the Effects of Platform Designs on Users and Producers},
+  author      = {Gleason, Jeffrey},
+  year        = {2026},
+  school      = {Northeastern University},
+  pdf         = {https://repository.library.northeastern.edu/files/neu:ms42k235b/fulltext.pdf},
+  abstract    = {Online platforms such as Google, Amazon, and Roblox increasingly mediate our everyday interactions by connecting users (e.g., searchers, buyers, players) to producers (e.g., publishers, sellers, creators). Platform design decisions shape market dynamics, user safety, and the broader health of the internet ecosystem. Governing online platforms effectively requires rigorous causal evidence about how platform designs affect stakeholders across both sides of online markets.</p><p>This dissertation presents three empirical studies that estimate the causal effects of platform designs on users and producers while contrasting three methodological approaches for doing so. The first chapter applies observational causal inference to high-frequency, cross-platform panel data to analyze the impact of Amazon’s Buy Box suppression policy, the focus of an ongoing FTC antitrust complaint, on seller metrics and competitor prices. The second chapter designs platform field experiments on Roblox to estimate how suspension length affects safety and engagement outcomes after players violate community standards. The final chapter implements a field experiment via a browser extension to evaluate how Google’s new AI search features (AI Overviews and AI Mode) influence user behavior, perceptions, and publisher traffic. Together, these studies offer both substantive insights into the effects of specific platform designs and a comparison of three different approaches for generating causal evidence that informs the governance of online platforms.},
+  bibtex_show = {true}
+}

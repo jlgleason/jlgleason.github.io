@@ -1,8 +1,8 @@
 version: "3"
-# this file uses prebuilt image in dockerhub
+# this file builds a local image from ./Dockerfile (Ruby pinned to match deploy)
 services:
   jekyll:
-    image: amirpourmand/al-folio:latest
+    image: jlgleason-site:ruby-3.2.2
     build: .
     ports:
       - 8080:8080

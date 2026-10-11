@@ -1,4 +1,5 @@
-FROM ruby:latest
+# pinned to match the Ruby version used by .github/workflows/deploy.yml
+FROM ruby:3.2.2
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
@@ -29,8 +30,8 @@ ADD Gemfile /srv/jekyll
 
 WORKDIR /srv/jekyll
 
-# install jekyll and dependencies
-RUN gem install jekyll bundler
+# install jekyll and dependencies (bundler version matches "BUNDLED WITH" in Gemfile.lock)
+RUN gem install bundler -v 2.5.11
 
 RUN bundle install --no-cache
 # && rm -rf /var/lib/gems/3.1.0/cache
